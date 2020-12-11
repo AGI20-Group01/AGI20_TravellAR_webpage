@@ -35,6 +35,9 @@ body {
   object-fit: cover;
 }
 
+.team_img {
+  filter: grayscale(100%);
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
