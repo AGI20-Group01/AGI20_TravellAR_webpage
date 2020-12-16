@@ -107,12 +107,9 @@ body {
 
 /* Videos */
 
-.centered-thing {
+.intro_video {
   position: relative;
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  margin-bottom: 10rem;
   left: 50%;
-  width: 1120px;
-  height: 630px;
   transform: translate(-50%, 0);
 }
