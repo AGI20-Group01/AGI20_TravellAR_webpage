@@ -112,5 +112,6 @@ body {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
   left: 50%;
   height: 100%;
+  width: 100%;
   transform: translate(-50%, 0);
 }
