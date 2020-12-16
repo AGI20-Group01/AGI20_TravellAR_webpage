@@ -81,8 +81,8 @@ body {
   position: relative;
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
   left: 50%;
-  width: 1000px;
-  height: 563px;
+  width: 560px;
+  height: 315px;
   transform: translate(-50%, 0);
 }
 
@@ -115,8 +115,8 @@ body {
   }
 
   .intro_video {
-    width: 560px;
-    height: 315px;
+    width: 1000px;
+    height: 563px;
   }
 }
 
