@@ -109,7 +109,9 @@ html {
   padding: 20px;
   /* font-size: 30px; */
 }
-
+.footer-container{
+  margin-top: 4em;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
