@@ -40,7 +40,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #0a0a0ac7;">
-      <a class="navbar-brand" href="index.html">TravellAR</a>
+      <a class="navbar-brand" href="index.html" id="abc">TravellAR</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,10 +51,13 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://github.com/AGI20-Group01/AGI20_Group01_MystARies">GitHub</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
+            <a class="nav-link" href="about_us.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="fab fa-github btn btn-secondary fa-lg nav-link" href="https://github.com/AGI20-Group01/AGI20_Group01_MystARies" target="_blank" style="vertical-align:-0.4em; background-color:#000000!important; border-color:#000000!important; color:rgb(255 255 255 / 1)"></a>
           </li>
           <!--<li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Download</a>
@@ -82,11 +85,11 @@
           <img class="bd-placeholder-img" height="100%" src="img\gifheader.gif" preserveAspectRatio="xMidYMid slice"
             focusable="false"></img>
           <div class="container">
-            <div class="carousel-caption text-left">
+            <div class="carousel-caption">
               <h1>TravellAR</h1>
               <p>Enjoy a unique AR experience together with a friend. Explore the world as a traveller or a spirit, and
                 work together to reach the goal.</p>
-              <p><a class="btn btn-lg btn-light" href="#" role="button">Download latest version</a></p>
+              <p><a class="btn btn-lg btn-light" href="apk/MVP2.0.apk" download>Download latest version</a></p>
             </div>
           </div>
         </div>
@@ -97,7 +100,7 @@
             <div class="carousel-caption">
               <h1>Meet the team behind TravellAR</h1>
               <p>Learn more about the students behind TravellAR.</p>
-              <p><a class="btn btn-lg btn-light" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-lg btn-light" href="about_us.html" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -133,7 +136,7 @@
       <!--Start with a trailer of the game-->
 
       <div class="row featurette">
-        <h2 class="featurette-heading">TravellAR <span class="text-muted">a short introduction.</span>
+        <h2 class="featurette-heading2">TravellAR <span class="text-muted">a short introduction.</span>
         </h2>
         <p class="lead">TravellAR uses AR technology to connect two friends or strangers to let them interact
           with each other in the same world. 
@@ -148,11 +151,42 @@
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
 
+      <div class="row featurette" style="display: flex; flex-direction: column;">
+        <h2 class="featurette-heading2">Goals
+          <span class="text-muted">& Motivation</span>
+        </h2>
+        <ul>
+          <li>Explore interaction mechanics that encourage social distancing</li>
+          <li>Use AR Technology to create a shared virtual space</li>
+          <li>Design asymmetric interaction</li>
+          <li>Figure out fun interaction methods</li>
+          <li>Connect everything to a server environment</li>
+        </ul>
+      </div>
 
+      <div class="row featurette" style="display: flex; flex-direction: column;">
+        <h2 class="featurette-heading2">Challenges
+          <span class="text-muted">& Obstacles</span>
+        </h2>
+          <p class="lead">Our main challenges in the creation of this game has been to study different ways of interacting and manipulating a world space in a fun and interactive way that encourages teamwork through gameplay. Design and creating an AR-world, with everything from modelling and shading to figuring out easy and intuitive interaction methods.
+            <br>
+            <br>As the pandemic of 2020 was a major influence in general for the development, we also faced the challenge of needing to implement server interaction between two players, to allow players to connect despite social distancing. 
+            <br><br>In doing this we faced a few obstacles, such as getting multiple bugs due to server integration or figuring out how AR Foundation works and making it as stable as possible.
+            </p>
+      </div>
+
+      <div class="row featurette" style="display: flex; flex-direction: column;">
+        <h2 class="featurette-heading2">Blog
+          <span class="text-muted">& Demo Videos</span>
+        </h2>
+      <p class=lead>
+        Find details of our step by step progress <a href="blog.html">here</a> in words and visuals. 
+      </p>
+      </div>
       <!--- BLOG PART
         =========================================================================-->
 
-        <div class="container marketing">
+        <!-- <div class="container marketing">
 
       
           <hr class="featurette-divider">
@@ -355,17 +389,18 @@
     
         <hr class="featurette-divider">
       
-          <!-- /END THE FEATURETTES -->
+         /END THE FEATURETTES -->
       
-        </div><!-- /.container -->
-        
+        <!-- </div> -->
+        <!-- /.container -->
+
         
 
       <!-- Intoduce the team. -->
       <!-- We should probably add a header before this. The buttons are also not currently working, so that needs to be fixed!-->
 
       <!--First row of team members. The class row2 center a row with only two team members (it may not be a 100% correct)-->
-      <div class="row row2">
+      <!-- <div class="row row2">
         <div class="col-lg-4">
           <img class="bd-placeholder-img rounded-circle team_img" width="140" height="140" src="img/Emil.jpg"
             preserveAspectRatio="xMidYMid slice" focusable="false" aria-label="Placeholder: 140x140"></img>
@@ -375,7 +410,7 @@
           </p>
           <p><i class="fab fa-linkedin-in btn btn-secondary fa-lg" href="#" role="button"></i> <i
               class="fab fa-github btn btn-secondary fa-lg" href="https://github.com/3mil95" role="button"></i></p>
-        </div><!-- /.col-lg-4 -->
+        </div>
         <div class="col-lg-4">
           <img class="bd-placeholder-img rounded-circle team_img" width="140" height="140" src="img/Jacob.jpg"
             preserveAspectRatio="xMidYMid slice" focusable="false" aria-label="Placeholder: 140x140"></img>
@@ -383,9 +418,9 @@
           <p>Game Design <br /> AR-Interaction <br /> UI <br /> Haptics.</p>
           <p><i class="fab fa-linkedin-in btn btn-secondary fa-lg" href="#" role="button"></i> <i
               class="fab fa-github btn btn-secondary fa-lg" href="https://github.com/Geoodees" role="button"></i></p>
-        </div><!-- /.col-lg-4 -->
+        </div>
       </div>
-    <!--Second row of team members-->
+    Second row of team members
       <div class="row">
         <div class="col-lg-4">
           <img class="bd-placeholder-img rounded-circle team_img" width="140" height="140" src="img/Prashant.jpg"
@@ -394,7 +429,7 @@
           <p>UI.</p>
           <p><i class="fab fa-linkedin-in btn btn-secondary fa-lg" href="#" role="button"></i> <i
               class="fab fa-github btn btn-secondary fa-lg" href="https://github.com/fused-byte" role="button"></i></p>
-        </div><!-- /.col-lg-4 -->
+        </div>
 
         <div class="col-lg-4">
           <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/Matilda.JPG"
@@ -406,7 +441,7 @@
           <p><i class="fab fa-linkedin-in btn btn-secondary fa-lg"
               href="https://www.linkedin.com/in/matilda-richardsson-814748162/" role="button"></i> <i
               class="fab fa-github btn btn-secondary fa-lg" href="https://github.com/MachiRic" role="button"></i></p>
-        </div><!-- /.col-lg-4 -->
+        </div>
 
         <div class="col-lg-4">
           <img class="bd-placeholder-img rounded-circle team_img" width="140" height="140" src="img/Josefin.jpg"
@@ -421,13 +456,14 @@
       </div>
 
 
-    </div><!-- /.container -->
+    </div> -->
+    <!-- /.container -->
 
 
     <!-- FOOTER, we should modify and change some content in here-->
-    <footer class="container">
+    <footer class="container" style="margin-top: 3em;">
       <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <!-- <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
     </footer>
   </main>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

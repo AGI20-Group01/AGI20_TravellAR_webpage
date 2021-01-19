@@ -5,11 +5,13 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #f6f5f5;
   background-color: #151719;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -61,6 +63,20 @@ body {
   margin-left: .75rem;
 }
 
+.text-center {
+  text-align: center;
+  max-width: 45%;
+}
+ h2 {
+  font-weight: 400;
+}
+.text-center .col-lg-6 p {
+  text-align: center;
+  vertical-align: middle;
+  /* margin-right: .75rem;
+  margin-left: .75rem; */
+} 
+
 
 /* Featurettes
 ------------------------- */
@@ -87,6 +103,12 @@ body {
   transform: translate(-50%, 0);
 }
 
+.flex-container > div {
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  /* font-size: 30px; */
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -107,6 +129,10 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+
+  .featurette-heading2 {
+    margin-top: 2rem;
   }
 
   .row2 {
